@@ -25,9 +25,10 @@ sudo ip link set dev eth0 xdp obj udpFilter.o sec udpFilter
 ```
 
 
-
 ## Test Server Info
-![image](https://github.com/user-attachments/assets/21c9a2f9-ce62-48a3-a84f-e6b41090084b)
+*To avoid errors for eBPF dependencies, please use Ubuntu 20.04.6*
+![image](https://github.com/user-attachments/assets/e5a569b8-bd1c-4105-b1da-dd66b954d0b6)
+
 
 
 
