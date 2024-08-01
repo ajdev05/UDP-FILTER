@@ -18,7 +18,7 @@ clang -Wall -O2 -target bpf -c udpFilter.c -o udpFilter.o
 
 ## Hook the program up to the NIC
 
-*EG: sudo ip link set dev [interface name] xdp obj udpFilter.o sec udpFilter*
+*EG: ip link set dev [interface name] xdp obj udpFilter.o sec udpFilter*
 
 ```
 sudo ip link set dev eth0 xdp obj udpFilter.o sec udpFilter
