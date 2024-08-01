@@ -32,7 +32,7 @@ sudo ip link set dev eth0 xdp obj udpFilter.o sec udpFilter
 
 
 ## Testing
-![testing]([imgs/NetHAWK-Full-logo.png](https://imgur.com/a/ZZ283nm))
+![testing]([https://imgur.com/a/ZZ283nm](https://imgur.com/a/ZZ283nm))
 
  
 
