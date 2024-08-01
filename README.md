@@ -25,14 +25,19 @@ sudo ip link set dev eth0 xdp obj udpFilter.o sec udpFilter
 ```
 
 
+## Filter in active under a real-time DDoS attack.
+*The XDP filter was tested under a real DDoS attack in a controlled environment owned by me. DDoS attacks are illegal and unethical, causing harm by disrupting services and damaging infrastructure.*
+
+## Testing![live-test](https://github.com/user-attachments/assets/4e59e8ee-f57f-4383-872c-bdd5af822031)
+
+
 ## Test Server Info
 *To avoid errors for eBPF dependencies, please use Ubuntu 20.04.6*
 
 ![image](https://github.com/user-attachments/assets/e5a569b8-bd1c-4105-b1da-dd66b954d0b6)
 
 
-## Testing
-![testing]([https://imgur.com/a/ZZ283nm](https://imgur.com/a/ZZ283nm))
+
 
  
 
